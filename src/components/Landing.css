@@ -1,0 +1,73 @@
+/* Landing.css */
+.landing {
+    display: flex;
+    padding: 150px 0;
+  }
+  
+  .landing-content {
+    flex: 1;
+    max-width: 600px;
+    padding: 70px 250px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .landing-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-out;
+    color:white;
+  }
+  
+  .landing-description {
+    font-size: 1.2rem;
+    color: #C1BFBF;
+    margin-bottom: 30px;
+    animation: fade-in 1s ease-out;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .landing-image {
+    flex: 1;
+    animation: slide-in 1s ease-out;
+  }
+  
+  .landing-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(20%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
