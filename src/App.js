@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Landing from './components/Landing';
-import AboutMe from './components/AboutMe';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Landing from './components/Landing/Landing';
+import AboutMe from './components/AboutMe/AboutMe';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Project/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <div className="content">
         <Landing />
         <AboutMe />
-        
       </div>
     </div>
   );

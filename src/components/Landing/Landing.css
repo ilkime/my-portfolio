@@ -1,7 +1,6 @@
 /* Landing.css */
 .landing {
     display: flex;
-    padding: 150px 0;
   }
   
   .landing-content {
@@ -14,9 +13,16 @@
   .landing-title {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
     animation: fade-in 1s ease-out;
     color:white;
+  }
+  
+  .landing-title2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-out;
+    color:#C1BFBF;
   }
   
   .landing-description {

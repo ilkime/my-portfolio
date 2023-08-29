@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">Your Logo</div>
       <div className="navbar-links">
-        <Link to="about" smooth={true} duration={500}>
+        <Link to="AboutMe" smooth={true} duration={500}>
           About
         </Link>
         <Link to="experience" smooth={true} duration={500}>
