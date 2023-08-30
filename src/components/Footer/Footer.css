@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 250px;
+  }
+  
+  .footer-logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .footer-middle {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .footer-right {
+    font-size: 14px;
+  }
+  
+ 

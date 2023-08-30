@@ -1,26 +1,27 @@
 /* Landing.css */
 .landing {
     display: flex;
+    /* height: 100vh; */
   }
   
   .landing-content {
     flex: 1;
-    max-width: 600px;
     padding: 70px 250px;
     text-align: left; /* Align text to the left */
   }
   
   .landing-title {
-    font-size: 2.5rem;
+    font-size: 64px;
     font-weight: bold;
     animation: fade-in 1s ease-out;
-    color:white;
+    color: #AAD9D9;
+    margin: 0;
   }
   
   .landing-title2 {
-    font-size: 2.5rem;
+    font-size: 53px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 0;
     animation: fade-in 1s ease-out;
     color:#C1BFBF;
   }
@@ -30,6 +31,7 @@
     color: #C1BFBF;
     margin-bottom: 30px;
     animation: fade-in 1s ease-out;
+    max-width: 600px;
   }
   
   .cta-button {

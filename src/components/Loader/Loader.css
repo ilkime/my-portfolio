@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  z-index: 1040;
+}
+
+.loader h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.loader h1 em {
+  font-family: 'Courier Prime', Courier, monospace;
+  font-style: normal;
+}
+
+.loader .c-braces {
+  letter-spacing: -8px;
+  vertical-align: middle;
+}
