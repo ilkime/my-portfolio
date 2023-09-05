@@ -4,6 +4,7 @@
     justify-content:center;
     flex-direction: column;
     text-align: center;
+    gap: 1em;
 }
 
 .experienceSection{
@@ -13,6 +14,7 @@
     display:grid;
     /* grid-template-rows: 15% 85%; */
     grid-template-columns: 20% 60% 20%;
+    gap: 1em;
 }
 
 .experienceAccordion{
@@ -46,7 +48,9 @@
     grid-column:2;
     display:flex;
     flex-direction: column;
-    /* background-color: #313381; */
+    background-color: #37389B;
+    border-radius: 15px;
+    padding: 20px 32px;
 
 }
 
@@ -79,4 +83,84 @@
 .experienceAccordionPeriod{
     font-weight: bold;
     font-size: 16px;
+}
+
+.experienceAccordionContentHeader{
+    display:grid;
+    /* grid-template-columns: 5% 25% 25% 45%; */
+    grid-template-columns: 5% 25% 25%;
+}
+
+.experienceAccordionContentLocation{
+    color: #AAD9D9;
+    grid-column: 2;
+    display:flex;
+    flex-direction: row;
+    gap: 0.5em;
+    font-weight: bold;
+}
+
+.experienceAccordionContentWebsite{
+    color: #AAD9D9;
+    grid-column: 3;
+    display:flex;
+    flex-direction: row;
+    gap: 0.5em;
+    font-weight: bold;
+}
+
+.experienceAccordionContentLocationIcon{
+    display: flex;
+    align-items: center;
+}
+.experienceAccordionContentWebsiteIcon{
+    display: flex;
+    align-items: center;
+}
+
+.experienceAccordionContentTechnologies{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style-type: none;
+
+}
+.experienceAccordionContentTechnology{
+    border-radius: 12px;
+    background-color: #313381;
+    text-align: center;
+    color: #AAD9D9;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+.experienceAccordionContentTechnology:hover{
+    color: #FFF;
+    scale: 110%;
+    cursor: pointer;
+}
+
+.experienceAccordionContentAchievements{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    list-style-type: none;
+}
+
+.experienceAccordionContentAchievement{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+/* .experienceAccordionContentAchievementIcon{
+    display: flex;
+    align-items: center;
+    color: yellow;
+} */
+
+.achievement-list-icon{
+    color: yellow;
+    padding-top: 3px;
 }

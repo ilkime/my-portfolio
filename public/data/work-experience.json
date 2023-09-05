@@ -1,0 +1,63 @@
+[
+    {
+        "title": "AIoT Consultant",
+        "company": "Bosch Digital",
+        "start": "Oct,2022", 
+        "end": "Aug,2023", 
+        "location": "Berlin, Germany", 
+        "website": "bosch-digital.com",
+        "achievements": 
+        ["Developing Components for internal virtual reality (VR) events using Blender and Unity", 
+        "Providing B2B consultancy services for industrial Metaverse use cases and applications.", 
+        "Engaging in web development for a digital blockchain wallet website utilizing ReactJS."],
+        "technologies":
+        ["ReactJS", 
+        "Docker", 
+        "Azure", 
+        "Rest API", 
+        "Postman", 
+        "Polkadot",
+        "Streamlit"]
+    },
+    {
+        "title": "Thesis Student",
+        "company": "Bosch.IO",
+        "start": "May,2022", 
+        "end": "Jul,2022", 
+        "location": "Berlin, Germany", 
+        "website": "bosch.de",
+        "achievements": 
+        ["Completed bachelor thesis at Bosch.IO, focusing on the topic of Design and Implementation of an orchestration concept within an agnostic prototyping tech stack.",
+        "Implemented and integrated a Microsoft Teams Bot,that provides the Teams with up to date news from an RSS Feed.",
+        "Developed a Node-RED component that orchestrates and simplifies intricate processes to Azure."],
+        "technologies":
+        ["Node-RED",  
+        "Azure", 
+        "Javascript",
+        "Node.js",
+        "TeamsFx",
+        "Azure CLI"]
+
+    },
+    {
+        "title": "Ux & Frontend Developer Intern",
+        "company": "Bosch.IO",
+        "start": "Nov,2021", 
+        "end": "May,2022", 
+        "location": "Berlin, Germany", 
+        "website": "bosch.de",
+        "achievements": 
+        ["Engaging in frontend development for a customer website by utilizing JavaScript, React, HTML, and CSS to craft standardized components throughout the webpage.", 
+        "Conducting A/B testing and personalization of Bosch DIY through the utilization of Optimizely and JavaScript.", 
+        "Developing bots within MS Teams using Node.js, JS, and Azure services."],
+        "technologies":
+        ["ReactJS", 
+        "Jira", 
+        "Azure", 
+        "Node.js", 
+        "A/B Testing", 
+        "Optimizely",
+        "Figma"]
+
+    }
+]

@@ -3,7 +3,7 @@
         "title": "Portfolio",
         "type": "Web Development",
         "description": "fill it later",
-        "Technologies":
+        "technologies":
         ["ReactJS", 
         "Docker"],
         "url": "https://github.com/ilkime/my-portfolio",
@@ -13,7 +13,7 @@
         "title": "Identity Rest Server",
         "type": "Web Development",
         "description": "fill it later",
-        "Technologies":
+        "technologies":
         ["C++",
         "Oracle",
         "Swagger UI",
@@ -27,7 +27,7 @@
         "title": "Project 3",
         "type": "Data Visualization",
         "description": "fill it later",
-        "Technologies":
+        "technologies":
         ["Python",
         "Streamlit"],
         "url": "https://github.com/ilkime/data-viz",
@@ -37,7 +37,7 @@
         "title": "CAMP OF YOUR LIFE",
         "type": "Web Development",
         "description": "fill it later",
-        "Technologies":
+        "technologies":
         ["CSS",
         "HTML"],
         "url": "https://github.com/ilkime/CampsiteRenting",

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Experience.css'; // Import the separate CSS file
 import experiences from '../../static/data/work-experience.json'
+import { CiLocationOn, CiLemon } from 'react-icons/ci';
+import { TbClick } from 'react-icons/tb';
 
 const Experience = () => {
   const experience1 = experiences[0]
@@ -16,12 +18,13 @@ const Experience = () => {
             <div className="experienceAccordionTitle">{experience["title"]}</div>
             <div className="experienceAccordionCompany">@{experience["company"]}</div>
             </div>
-            <div className="experienceAccordionPeriod">{experience["start"]}-{experience["end"]}</div>
+            <div className="experienceAccordionPeriod">{experience["start"]} - {experience["end"]}</div>
           </div>
           <div className="experienceAccordionContent">
             <div className="experienceAccordionContentHeader">
               <div className="experienceAccordionContentLocation">
                 <div className="experienceAccordionContentLocationIcon">
+                  <CiLocationOn className="location-icon" />
                 </div>
                 <div className="experienceAccordionContentLocationText">
                   {experience["location"]}
@@ -29,17 +32,19 @@ const Experience = () => {
               </div>
               <div className="experienceAccordionContentWebsite">
                 <div className="experienceAccordionContentWebsiteIcon">
+                  <TbClick className="website-icon" />
                 </div>
                 <div className="experienceAccordionContentWebsiteText">
                 {experience["website"]}
                 </div>
               </div>
             </div>
-            <div className="experienceAccordionContentAchievements">
-              <ul>
-                {experience["achievements"].map((achievement) => <li className="experienceAccordionContentAchievement">{achievement}</li>)}
-              </ul>
-            </div>
+            <ul className="experienceAccordionContentAchievements">
+                {experience["achievements"].map((achievement) => <li className="experienceAccordionContentAchievement"><div className='experienceAccordionContentAchievementIcon'><CiLemon className='achievement-list-icon'/></div>{achievement}</li>)}
+            </ul>
+            <ul className='experienceAccordionContentTechnologies'>
+              {experience["technologies"].map((technology) => <li className='experienceAccordionContentTechnology'>{technology}</li>)}
+            </ul>
           </div>
         </div>)}
       </section>

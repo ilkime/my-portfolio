@@ -2,7 +2,7 @@
     {
         "title": "AIoT Consultant",
         "company": "Bosch Digital",
-        "start": "Okt,2022", 
+        "start": "Oct,2022", 
         "end": "Aug,2023", 
         "location": "Berlin, Germany", 
         "website": "bosch-digital.com",
@@ -10,7 +10,7 @@
         ["Developing Components for internal virtual reality (VR) events using Blender and Unity", 
         "Providing B2B consultancy services for industrial Metaverse use cases and applications.", 
         "Engaging in web development for a digital blockchain wallet website utilizing ReactJS."],
-        "Technologies":
+        "technologies":
         ["ReactJS", 
         "Docker", 
         "Azure", 
@@ -30,7 +30,7 @@
         ["Completed bachelor thesis at Bosch.IO, focusing on the topic of Design and Implementation of an orchestration concept within an agnostic prototyping tech stack.",
         "Implemented and integrated a Microsoft Teams Bot,that provides the Teams with up to date news from an RSS Feed.",
         "Developed a Node-RED component that orchestrates and simplifies intricate processes to Azure."],
-        "Technologies":
+        "technologies":
         ["Node-RED",  
         "Azure", 
         "Javascript",
@@ -50,7 +50,7 @@
         ["Engaging in frontend development for a customer website by utilizing JavaScript, React, HTML, and CSS to craft standardized components throughout the webpage.", 
         "Conducting A/B testing and personalization of Bosch DIY through the utilization of Optimizely and JavaScript.", 
         "Developing bots within MS Teams using Node.js, JS, and Azure services."],
-        "Technologies":
+        "technologies":
         ["ReactJS", 
         "Jira", 
         "Azure", 

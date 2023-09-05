@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing';
 import AboutMe from './components/AboutMe/AboutMe';
 import Experience from './components/Experience/Experience';
-import Projects from './components/Project/Projects';
+import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -24,9 +24,9 @@ function App() {
         <Element id='experience' name='experience'>
           <Experience />
         </Element>
-        {/* <Element id='projects' name='projects'>
-          <Projects />
-        </Element> */}
+        <Element id='project' name='project'>
+          <Project />
+        </Element>
         <Element id='contact' name='contact'>
           <Contact />
         </Element>
