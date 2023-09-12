@@ -2,7 +2,7 @@
     {
         "title": "Portfolio",
         "type": "Web Development",
-        "description": "fill it later",
+        "description": "Developed a personal portfolio showcasing a diverse collection of my projects, skills, and achievements.",
         "technologies":
         ["ReactJS", 
         "Docker"],
@@ -12,31 +12,36 @@
     {
         "title": "Identity Rest Server",
         "type": "Web Development",
-        "description": "fill it later",
+        "description": "Created a Python microservice to handle identity, it exposes the authentication service via a Restful API. User can register an account by providing a username and a password, which will be hashed with salt and stored in an Oracle database. Once a valid credential is received, a JWT token will be returned. To prevent the risk of having a valid JWT token after the user has been logged out, the token will be blacklisted on logged out. This project will also serve as a proof of concept for a future project.",
         "technologies":
-        ["C++",
+        ["Python",
         "Oracle",
         "Swagger UI",
-        "Boost", 
+        "FastAPI",
+        "JWT", 
         "Docker",
         "Kubernetes"],
         "url": "https://github.com/ilkime/identity-server",
         "img": "../images/project2.png"
     },
     {
-        "title": "Project 3",
-        "type": "Data Visualization",
-        "description": "fill it later",
+        "title": "Task Manager",
+        "type": "Web Development",
+        "description": "Created a To-Do List web application using FARM Stack.",
         "technologies":
         ["Python",
-        "Streamlit"],
+        "FastAPI",
+        "ReactJS",
+        "MongoDB",
+        "Docker",
+        "Docker Compose"],
         "url": "https://github.com/ilkime/data-viz",
         "img": "../images/project3.png"
     },
     {
         "title": "CAMP OF YOUR LIFE",
         "type": "Web Development",
-        "description": "fill it later",
+        "description": "Designed and executed a proof of concept camping website that exemplifies my web development skills. This project features an intuitive user interface, interactive campground listings, and seamless navigation.",
         "technologies":
         ["CSS",
         "HTML"],

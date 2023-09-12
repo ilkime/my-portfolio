@@ -23,6 +23,12 @@
     flex-direction: column;
 }
 
+/* .projectShowcaseContainer:hover{
+    scale: 110%;
+    border: 1px solid white;
+    transition: scale 0.1s ease-in;
+} */
+
 .projectTitle{
     text-align: center;
 }
@@ -46,6 +52,11 @@
     border-radius: 5px;
     width: 350px;
     height: 250px;
+}
+
+.projectImageWrapper:hover{
+    scale: 110%;
+    transition: scale 0.1s ease-in;
 }
 
 .projectTechnology{

@@ -15,7 +15,7 @@ const Contact = () => {
         Send me an email or contact me via instant message!
       </div>
       <button className="contact-button" onClick={handleContactClick}>
-        CONTACT ME
+        CONTACT ME 
       </button>
     </div>
     </div>
