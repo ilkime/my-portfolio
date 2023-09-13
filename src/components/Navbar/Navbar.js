@@ -3,7 +3,6 @@
 // import { Link, ScrollLink } from 'react-scroll';
 // import './Navbar.css';
 
-
 // const Navbar = () => {
 //   return (
 //     <nav className="navbar">
@@ -22,12 +21,12 @@
 //           Contact
 //         </Link>
 //         testtt
-//         <ScrollLink 
-//         to="example-destination" 
-//         spy={true} 
-//         smooth={true} 
-//         duration={500} 
-//         className='content' 
+//         <ScrollLink
+//         to="example-destination"
+//         spy={true}
+//         smooth={true}
+//         duration={500}
+//         className='content'
 //         activeClass='content'
 //       >
 //         Why not appear
@@ -40,19 +39,20 @@
 
 // export default Navbar;
 
-import React from 'react';
-import { Link, Element } from 'react-scroll'; // Import Element from react-scroll
-import './Navbar.css';
-import logo from '../../static/images/my-logo.png';
-import Loader from '../Loader/Loader';
+import React from "react";
+import { Link, Element } from "react-scroll"; // Import Element from react-scroll
+import "./Navbar.css";
+import logo from "../../static/images/my-logo.png";
+import Loader from "../Loader/Loader";
+import cv from "../../static/data/resume.pdf";
 const Navbar = () => {
   return (
     <nav className="navbar">
       {/* <div className="navbar-logo">Your Logo</div> */}
       <img src={logo} alt="Logo" className="footer-logo" />
-    
+
       <div className="navbar-links">
-      <Link to="landing" smooth={true} duration={500}>
+        <Link to="landing" smooth={true} duration={500}>
           Home
         </Link>
         <Link to="about" smooth={true} duration={500}>
@@ -68,7 +68,10 @@ const Navbar = () => {
           Contact
         </Link>
       </div>
-      <button className="navbar-resume">Resume</button>
+      {/* <button className="navbar-resume">Resume</button> */}
+      <a href={cv} download="cv" target="_blank">
+        <button className="navbar-resume">Resume</button>
+      </a>
 
       {/* Add this Element to wrap the content you want to scroll to
       <Element name="example-destination" className="example-destination">

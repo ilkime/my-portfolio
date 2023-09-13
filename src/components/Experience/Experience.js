@@ -41,14 +41,14 @@ const Experience = () => {
                   {experience["location"]}
                 </div>
               </div>
-              <div className="experienceAccordionContentWebsite">
+              <a className="experienceAccordionContentWebsite" href={"http://www." + experience["website"]}>
                 <div className="experienceAccordionContentWebsiteIcon">
                   <TbClick className="website-icon" />
                 </div>
                 <div className="experienceAccordionContentWebsiteText">
                 {experience["website"]}
                 </div>
-              </div>
+              </a>
             </div>
             <ul className="experienceAccordionContentAchievements">
                 {experience["achievements"].map((achievement) => <li className="experienceAccordionContentAchievement"><div className='experienceAccordionContentAchievementIcon'><CiLemon className='achievement-list-icon'/></div>{achievement}</li>)}

@@ -12,24 +12,25 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      
-       
-        <Element id='landing' name='landing'>
-          <Landing />
-        </Element>
-        <Element id='about' name='about'>
-          <AboutMe />
-        </Element>
-        <Element id='experience' name='experience'>
-          <Experience />
-        </Element>
-        <Element id='project' name='project'>
-          <Project />
-        </Element>
-        <Element id='contact' name='contact'>
-          <Contact />
-        </Element>
+      <Navbar className="navbar"/>
+        <div className="content">
+          <Element id='landing' name='landing' className='landing'>
+            <Landing />
+          </Element>
+          <Element id='about' name='about' className='about'>
+            <AboutMe />
+          </Element>
+          <Element id='experience' name='experience' className='experience'>
+            <Experience />
+          </Element>
+          <Element id='project' name='project' className='project'>
+            <Project />
+          </Element>
+          <Element id='contact' name='contact' className="contact">
+            <Contact />
+          </Element>
+
+        </div>
         <Footer />
     </div>
   );

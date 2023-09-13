@@ -133,6 +133,7 @@
     flex-direction: row;
     gap: 0.5em;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .experienceAccordionContentLocationIcon{

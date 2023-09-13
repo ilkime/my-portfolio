@@ -6,4 +6,33 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 10em;
+}
+/* .content{
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  gap: 3em;
+} */
 
+/* .landing{
+  grid-row: 1;
+}
+
+.about{
+  grid-row: 2;
+}
+
+.experience{
+  grid-row: 3;
+}
+
+.poject{
+  grid-row: 4;
+}
+
+.contact{
+  grid-row: 5;
+} */
